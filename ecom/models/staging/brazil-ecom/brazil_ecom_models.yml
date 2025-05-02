@@ -1,0 +1,20 @@
+
+# version: 1
+
+# models:
+
+#   - name: base_product_translation
+#     description: "A table that translate category names from Brazilian to English"
+#     columns:
+#       - name: product_category_name
+#       - name: product_category_name_english
+
+#   - name: base_customers
+#     description: "customers table where all the column types are transformed"
+#     columns:
+#     - name: customer_id
+#     - name: customer_unique_id
+#     - name: customer_zip_code_prefix
+#     - name: customer_city
+#     - name: customer_state
+ 

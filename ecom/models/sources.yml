@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: mysql_source  # This is your source name
+    database: e-commerce  # The database name
+    schema: e-commerce  # The schema where your raw tables exist
+    tables:
+      - name: product_category_name_translation  # The actual table name
+        description: "translation data"
+      - name: olist_customers_dataset
+      - name: olist_geolocation_dataset
+      - name: olist_order_items_dataset
+      - name: olist_order_payments_dataset
+      - name: olist_order_reviews_dataset
+      - name: olist_orders_dataset
+      - name: olist_products_dataset
+      - name: olist_seller_dataset
+
